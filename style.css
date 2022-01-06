@@ -65,3 +65,9 @@ h1{
 .bot-col{
     color: #5ce1e6;
 }
+.right{
+    background-image: url(./image/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50px;
+}
