@@ -12,12 +12,13 @@ h1{
     border-left: 4px solid;
     border-image: linear-gradient(#00c2cb, #5ce1e6);
     border-image-slice: 1;
-    padding: 2px;
+    padding-left: 2px;
 }
 .flex-container{
     display: flex;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: 65px;
+    margin-bottom: 70px;
 }
 .half-width{
     width: 50%;
@@ -26,6 +27,9 @@ h1{
 .half-width img{
     width: 65%;
 }
+.half-width p{
+    width: 65%;}
+
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(#00c2cb, #5ce1e6);
@@ -33,4 +37,31 @@ h1{
     font-weight: 700;
     padding: 10px 30px;
     color: white;
+}
+.center{
+    text-align: center;
+}
+.max-width{
+    width: 33.33%;
+  }
+.left-banner{
+    background-image: url(./image/leftimg.png);
+    background-repeat: no-repeat;
+}
+.font{
+    font-family: 'Dancing Script', cursive;
+}
+.foot{
+    text-decoration: none;
+    background-image: linear-gradient(#5271ff, #5ce1e6 );
+    border-radius: 5px;
+    font-weight: 700;
+    padding: 10px 30px;
+    color: white;
+}
+#fonts{
+    font-size: 12px;
+}
+.bot-col{
+    color: #5ce1e6;
 }
